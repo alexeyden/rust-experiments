@@ -1,0 +1,15 @@
+[package]
+name = "raster"
+version = "0.1.0"
+authors = ["Alexey Denisov <rtgbnm@gmail.com>"]
+
+[dependencies]
+    rand = "0.3"
+    serde = "0.9"
+    serde_json = "0.9"
+    serde_derive = "0.9"
+
+[dependencies.sdl2]
+    git = "https://github.com/AngryLawyer/rust-sdl2"
+    default-features = false
+    features = ["image"]
